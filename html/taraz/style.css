@@ -1,5 +1,5 @@
 body {
-	background: #e478f7;
+	background: #faddff;
 }
 
 nav ul {
@@ -7,7 +7,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #085b56;
+	background-color: #390e31;
 	display: table;
 	width: 100%;
 }
@@ -25,7 +25,7 @@ li a {
 }
 
 li a:hover {
-	background-color: #fd7a85;
+	background-color: #7551e9;
 }
 
 h2 a {
