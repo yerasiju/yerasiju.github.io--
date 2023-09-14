@@ -1,22 +1,26 @@
 body {
-	background: #faddff;
+	background: #aea789f7;
+	text-align: center;
 }
 
 nav ul {
+	text-align: center;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #390e31;
+	background-color: #322e00;
 	display: table;
 	width: 100%;
 }
 
 nav li {
+	text-align: center;
 	display: table-cell
 }
 
 li a {
+	text-align: center;
 	display: block;
 	color: white;
 	text-align: center;
@@ -25,36 +29,39 @@ li a {
 }
 
 li a:hover {
-	background-color: #7551e9;
+	text-align: center;
+	background-color: #6f6b69;
 }
 
 h2 a {
+	text-align: center;
 	padding: 33px 25px;
 	color: white;
 	text-decoration: none;
 }
 
 h2 a:hover {
+	text-align: center;
 	background-color: #111;
 }
 
 figcaption{
-  text-align:left;
+	text-align: center;
 }
 
-header {
+header {text-align: center;
 	margin-left: 14px;
 }
 
 article {
-	text-align: left;
+	text-align: center;
 	margin: 15px;
 	max-width: 80%;
 	font-size: 18px;
 	line-height: 32px;
 }
 
-img {
+img {text-align: center;
 	width: 400px;
 	height: 300px;
   position:relative;
@@ -62,6 +69,7 @@ img {
 }
 
 aside {
+	text-align: center;
 	left: 10px;
 	border: 1px solid rgb(137, 180, 8);
 	padding: 15px;
@@ -76,11 +84,11 @@ footer {
 	position: relative;
 	width: 100%;
 	bottom: -100px;
-	background-color: #380042;
+	background-color: #2a2800;
 }
 
 footer p {
-	color: rgb(9, 87, 77);
+	color: rgb(124, 120, 104);
 	text-decoration: none;
 	padding: 10px;
 	text-align: center;
@@ -89,13 +97,14 @@ footer p {
 }
 
 footer a {
-	color: rgb(153, 39, 220);
+	color: rgb(140, 209, 229);
 	text-decoration: none;
 	text-align: center;
 	width: 100%;
 }
 
 video {
+	text-align: center;
 	display: block;
 	width: 420px;
 	height: 250px;
@@ -103,12 +112,14 @@ video {
 }
 
 audio {
+	text-align: center;
 	padding: 15px;
 	width: 98%;
   box-sizing: border-box;
 }
 
 embed {
+	text-align: center;
 	width: 400px;
 	height: 458px;
   padding:15px;
