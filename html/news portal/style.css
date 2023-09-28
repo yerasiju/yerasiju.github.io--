@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin: 20px 0;
+}
+
+/* Gallery Styles */
+.gallery {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+	margin: 10px;
+	display: inline-block;
+}
+
+.image img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Video Styles */
+.video {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+iframe {
+	width: 100%;
+}
+
+/* Reviews Styles */
+.reviews {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.review {
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.review img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.review p {
+	font-size: 1.2rem;
+}
+
+/* Footer Styles */
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #333;
+	color: white;
+}
